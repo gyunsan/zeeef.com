@@ -66,14 +66,14 @@ export default async function NotePage({ params }: any) {
             </div>
 
             <div className="mt-10 lg:col-start-2 lg:row-span-2 lg:mt-0 lg:self-center">
-              <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg">
+              {/* <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg">
                 <Image
                   width={150}
                   height={150}
                   src={`https://notes-hub.fly.dev/api/files/qzw10hvf1b4j777/${song.id}/${song.image}`}
                   alt={song.title}
                 />
-              </div>
+              </div> */}
             </div>
           </section>
           <section>
