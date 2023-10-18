@@ -92,7 +92,7 @@ export default async function NotePage({ params }: any) {
           </section>
         </div>
 
-        <div className="mt-10 lg:col-start-1 lg:row-start-2 lg:max-w-lg lg:self-start">
+        {/* <div className="mt-10 lg:col-start-1 lg:row-start-2 lg:max-w-lg lg:self-start">
           <section aria-labelledby="options-heading">
             <h2 id="options-heading" className="sr-only">
               Product options
@@ -113,7 +113,7 @@ export default async function NotePage({ params }: any) {
               </div>
             </form>
           </section>
-        </div>
+        </div> */}
       </div>
     </div>
   );
