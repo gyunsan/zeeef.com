@@ -20,8 +20,8 @@ const product = {
   imageAlt:
     "Model wearing light green backpack with black canvas straps and front zipper pouch.",
   breadcrumbs: [
-    { id: 1, name: "Travel", href: "#" },
-    { id: 2, name: "Bags", href: "#" },
+    { id: 1, name: "Начало", href: "/" },
+    { id: 2, name: "Събитие", href: "#" },
   ],
   sizes: [
     { name: "18L", description: "Perfect for a reasonable amount of snacks." },
@@ -80,8 +80,24 @@ export default async function NotePage({ params }: any) {
               {note.title}
             </h1>
           </div>
+          <div className="mt-4">
+            <p className="text-xl">
+              {note.content}
+            </p>
+          </div>
 
-          <section aria-labelledby="information-heading" className="mt-4">
+          <div className="mt-4">
+            <p className="text-sm">
+             Започва: {note.start}
+            </p>
+            <p className="text-sm">
+             Свършва: {note.end}
+            </p>
+          </div>
+
+
+
+          {/* <section aria-labelledby="information-heading" className="mt-4">
             <h2 id="information-heading" className="sr-only">
               Product information
             </h2>
@@ -99,7 +115,7 @@ export default async function NotePage({ params }: any) {
                 In stock and ready to ship
               </p>
             </div>
-          </section>
+          </section> */}
         </div>
 
         {/* Product image */}
@@ -120,7 +136,7 @@ export default async function NotePage({ params }: any) {
               Product options
             </h2>
 
-            <form>
+            {/* <form>
               <div className="mt-4">
                 <a
                   href="#"
@@ -144,7 +160,7 @@ export default async function NotePage({ params }: any) {
                   </span>
                 </a>
               </div>
-            </form>
+            </form> */}
           </section>
         </div>
       </div>
