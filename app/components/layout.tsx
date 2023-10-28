@@ -18,7 +18,7 @@ import Image from "next/image";
 const navigation = [
   { name: "Начало", href: "/", icon: HomeIcon, current: true },
   { name: "Събития", href: "/", icon: CalendarIcon, current: false },
-  { name: "Добави събитие", href: "/create", icon: PlusIcon, current: false },
+  // { name: "Добави събитие", href: "/create", icon: PlusIcon, current: false },
   { name: "Песни", href: "/songs", icon: MusicalNoteIcon, current: false },
   // {
   //   name: "Професионалисти",

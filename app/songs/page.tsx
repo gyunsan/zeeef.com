@@ -62,12 +62,9 @@ function Note({ note }: any) {
               </Link>
             </p>
             <p className="mt-1 flex text-xs leading-5 text-gray-500">
-              <a
-                href={`mailto:${title}`}
-                className="relative truncate hover:underline"
-              >
+            <Link href={`/songs/${id}`}>
                 {title}
-              </a>
+              </Link>
             </p>
           </div>
         </div>
